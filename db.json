@@ -1,0 +1,28 @@
+{
+  "user": [
+    {
+      "fname": "Karthik Shet",
+      "email": "shetkarthik89@gmail.com",
+      "dob": "121212",
+      "phone": "1222121212",
+      "address": "SOUTH WING B, Western Express Highway",
+      "gender": "male",
+      "AAdno": "4545454545454",
+      "PANno": "89898989889",
+      "userid": "Kart1222",
+      "id": 2
+    },
+    {
+      "fname": "Dexter",
+      "email": "shetkarthik89@gmail.com",
+      "dob": "111111",
+      "phone": "1212121212",
+      "address": "SOUTH WING B, Western Express Highway",
+      "gender": "male",
+      "AAdno": "21312312312312",
+      "PANno": "1242343243243",
+      "userid": "Dext1212",
+      "id": 3
+    }
+  ]
+}

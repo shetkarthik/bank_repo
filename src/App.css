@@ -1,5 +1,114 @@
 .App {
+  text-align: left;
+}
+
+.gradient {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(334deg, #6b97f7, #7525e2, #f7137e);
+  background-size: 180% 180%;
+  animation: gradient-animation 6s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.container-height {
+  height: 500px;
+
+}
+
+.image_conv {
+  height: 300px;
+  width: 500px;
+  display: block;
+  margin: auto;
+
+}
+
+.background {
+  background: blue;
+  width: 50vw;
+  height: 100vh;
+}
+
+.form-centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-back {
+  background-color: rgb(255, 0, 0);
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
   text-align: center;
+  border: none;
+}
+
+.register_heading {
+  margin-bottom: 23px;
+  margin-top: 23px;
+  font-family: auto;
+  font-weight: 500;
+  text-decoration: underline;
+  color: blue;
+  font-variant: small-caps;
+  font-size: 2.5rem;
+}
+
+.button-back:hover {
+  color: rgb(255, 0, 0);
+  background-color: white;
+  border: 1px solid rgb(255, 0, 0);
+  transition: all 0.3s ease-in-out;
+}
+
+.button-log {
+  background-color: blueviolet;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.button-log:hover {
+  color: blueviolet;
+  background-color: white;
+  border: 1px solid blueviolet;
+  transition: all 0.3s ease-in-out;
+}
+
+.button-centered {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-group {
+  width: 50%;
+}
+
+.app-check {
+  height: 20px;
+  width: 20px;
+  margin: 1%;
 }
 
 .App-logo {
@@ -7,10 +116,34 @@
   pointer-events: none;
 }
 
+.card-spaced {
+  float: left
+}
+
+.card-heading {
+  text-align: center;
+  font-family: auto;
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+.theme-color {
+  text-decoration: underline;
+  font-size: 25px;
+  text-align: center;
+  background: blue;
+  padding: 6px 5px;
+  color: white;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.errmsg {
+  color: red;
 }
 
 .App-header {
@@ -32,6 +165,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

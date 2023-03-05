@@ -1,0 +1,30 @@
+.logo {
+    border: 2px solid rgb(34, 0, 255);
+    padding: 10px 16px;
+    border-radius: 50%;
+    font-size: 26px;
+    color: rgb(0, 0, 255);
+    background-color: rgb(255, 255, 255);
+}
+
+.navlink {
+    text-decoration: none;
+    padding: 8px 12px;
+    margin: 0px 12px;
+    font-size: 17px;
+    font-weight: 500;
+    color: black;
+}
+
+.navlink:hover {
+    color: white;
+    background-color: rgb(0, 0, 255);
+    border-radius: 3px;
+    transition: all 0.3s
+}
+
+.navlink:active {
+    color: white;
+    background-color: rgb(0, 0, 255);
+    border-radius: 3px;
+}
