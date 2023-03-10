@@ -1,5 +1,19 @@
 {
-  "user": [
+  "user": [],
+  "approved": [
+    {
+      "fname": "NewUser",
+      "email": "newuser@gmail.com",
+      "dob": "230445",
+      "phone": "234234234",
+      "address": "SOUTH WING B, Western Express Highway",
+      "gender": "male",
+      "AAdno": "123321432423",
+      "PANno": "4354354353434",
+      "userid": "NewU2342",
+      "status": "Approved",
+      "id": 1
+    },
     {
       "fname": "Karthik Shet",
       "email": "shetkarthik89@gmail.com",
@@ -7,22 +21,26 @@
       "phone": "1222121212",
       "address": "SOUTH WING B, Western Express Highway",
       "gender": "male",
-      "AAdno": "4545454545454",
-      "PANno": "89898989889",
+      "AAdno": "12334324234324",
+      "PANno": "12312332432434",
       "userid": "Kart1222",
+      "status": "Approved",
       "id": 2
-    },
+    }
+  ],
+  "rejected": [
     {
       "fname": "Dexter",
-      "email": "shetkarthik89@gmail.com",
-      "dob": "111111",
-      "phone": "1212121212",
+      "email": "dexter@gmail.com",
+      "dob": "230395",
+      "phone": "234523453",
       "address": "SOUTH WING B, Western Express Highway",
       "gender": "male",
-      "AAdno": "21312312312312",
-      "PANno": "1242343243243",
-      "userid": "Dext1212",
-      "id": 3
+      "AAdno": "1212332432432",
+      "PANno": "12312323432432",
+      "userid": "Dext2345",
+      "status": "Resubmit",
+      "id": 1
     }
   ]
 }

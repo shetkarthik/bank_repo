@@ -6,18 +6,22 @@ import { Login } from './Components/login';
 import { Manage } from './Components/manage';
 import { Register } from './Components/register';
 import { Navbar } from './Components/Navbar/navbar';
+import { Request } from './Components/request';
 import { ToastContainer } from 'react-toastify';
+
+import "./App.css";
+
 const App = () => {
 
   return (
     <>
       <ToastContainer></ToastContainer>
       <Routes>
-        <Route index element={<Navbar />}></Route>
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/manage" element={<Manage />} />
+        <Route path="/manage/request" element={<Request />} />
       </Routes>
     </>
   );

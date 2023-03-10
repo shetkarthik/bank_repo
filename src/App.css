@@ -60,6 +60,41 @@
   border: none;
 }
 
+.status_color {
+  color: rgb(0, 0, 0);
+  background-color: rgb(17, 255, 0);
+  font-weight: bold;
+}
+
+.status_rcolor {
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+}
+
+.carousel_height {
+  height: 60vh;
+  margin: 0;
+  padding: 0;
+}
+
+.sub_container {
+  height: 300px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  /* background-color: yellow; */
+}
+
+.manager_heading {
+  padding: 12px;
+  font-style: italic;
+  text-align: center;
+  text-decoration: underline;
+  color: #636397;
+  font-weight: 700;
+}
+
 .register_heading {
   margin-bottom: 23px;
   margin-top: 23px;
@@ -118,6 +153,13 @@
 
 .card-spaced {
   float: left
+}
+
+.manager_card_heading {
+  text-align: center;
+  color: blue;
+  text-decoration: underline;
+  margin-bottom: 12px;
 }
 
 .card-heading {

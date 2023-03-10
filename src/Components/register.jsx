@@ -125,7 +125,7 @@ export const Register = () => {
                             <div className="container button-centered">
                                 <button type="btn" className="btn"> <Link className="button-log" to="/login">Login</Link></button>
 
-                                <button type="btn" className="btn"><Link className="button-back" to="/home">Back</Link></button>
+                                <button type="btn" className="btn"><Link className="button-back" to="/">Back</Link></button>
                             </div>
 
                         </div>

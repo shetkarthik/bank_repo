@@ -73,7 +73,7 @@ export const Login = () => {
                             <p className="text-center">New User, Please Register</p>
                             <div className="container button-centered">
                                 <Link className="btn btn-success" to={'/register/'}>Register</Link>
-                                <button type="btn" className="btn"><Link className="button-back" to="/home">Back</Link></button>
+                                <button type="btn" className="btn"><Link className="button-back" to="/">Back</Link></button>
                             </div>
 
                         </div>

@@ -32,7 +32,7 @@ export const Navbar = () => {
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li className={styles.navitem}>
 
-                                    <Link className={styles.navlink} to="/home">Home</Link>
+                                    <Link className={styles.navlink} to="/">Home</Link>
                                 </li>
                                 <li className={styles.navitem}>
                                     <a className={styles.navlink} to="/register">Loans</a>
@@ -52,6 +52,9 @@ export const Navbar = () => {
                                 </li>
                                 <li className={styles.navitem}>
                                     <Link className={styles.navlink} to="/register">Login/Register</Link>
+                                </li>
+                                <li className={styles.navitem}>
+                                    <Link className={styles.navlink} to="/manage">Manage</Link>
                                 </li>
                             </ul>
 
